@@ -1,0 +1,298 @@
+body{
+    background-color:#ececec;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+         
+    div#wrapper{
+    width:1000px;
+    height: auto;
+    background-color:white;
+    margin:auto;
+    text-align:center;
+    box-shadow: 0px 0px 10px 1px #c2c2c2;
+    }
+        
+/*START OF NAVIGATION BARS*/
+    header nav{
+    width:100%;
+    height:50px;
+    background-color:#2a2a2a;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2)
+    }
+            
+    header nav ul li{
+    list-style:none;
+    float:left;
+    }
+    
+    div li a{
+    color:rgb(255, 255, 255);
+    background-color:#2a2a2a;
+    text-decoration:none;
+    text-align: center;
+    line-height: 50px;
+    font-size:15px;
+    padding:16px 16px 17px 16px;
+    font-family:arial;
+    }
+    
+    div li a:hover{
+    background-color:#545454;
+    transition: 0.6s;
+
+    }
+    div li a.active{
+    background-color:white;
+    color:#2a2a2a;
+    }
+
+
+ /*END OF NAVIGATION BARS*/
+
+
+
+
+/*logo of famsoft (start)*/
+    #logo img{
+    width:100%;
+    height: 330px;
+    box-shadow: 0px 1px 10px 1px #a3a3a3;
+    
+    }
+/*logo of famsoft (end)*/
+
+
+
+
+/*Text (start)*/
+#text{
+    font-family: calbri;
+    line-height: 30px;
+    color: #545454;
+    box-shadow: 0px 1px 5px 1px #dfdfdf;
+    font-weight: bold;
+    }
+/*Text (end)*/
+
+/*Bill Board (start)*/
+#heading{
+    margin-left: 20px;
+    text-align: left;
+    color: white;
+}
+
+#h_tab{
+    width:900px;
+    margin: auto;
+    height: 40px;
+    background: #898989;
+    line-height: 40px;
+    box-shadow: 0px 5px 10px 1px #c4c4c4; 
+}
+
+#bill_board{
+    width:900px;
+    margin: auto;
+    height:320px;
+    background: #e4e4e4;
+}
+
+#gif{
+    height: 200px;
+    width: 260px;
+    float: left;
+    margin: 40px 20px 0px 20px;
+    box-shadow: 0px 0px 8px 2px #b1b1b1;
+}
+
+.icons{
+    width: 70px;
+    height: 60px;
+    float: left;
+    margin: 17px 10px 10px 15px;
+    transition: all .2s;
+}
+
+.icons:hover{
+    transform: scale(1.2);
+
+}
+
+/*Bill Board (end)*/
+
+
+/*imgs1 (start)*/
+.imgs1{
+    border: 3px solid #f1f1f1;
+    width:250px;
+    height:200px;
+    background: #ffffff;
+    float:left;
+    margin-left:60px;
+    margin-bottom:50px;
+    margin-top:50px;
+    transition: all .2s;
+    box-shadow: 0px 0px 10px 1px #888888;
+    cursor:help;   
+    }
+
+.img{
+    width: 250px;
+    height: 200px;
+    transition: all .5s;
+    }
+    
+.imgs1:hover{
+transform: scale(1.2);
+    }
+    
+.imgs1:hover .img{
+    opacity: 0.3;
+    transition: all .5s;
+    }
+
+ #underbox{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     text-align: center;
+     transition: all .5s;
+    }
+    
+.imgs1:hover #underbox {
+     opacity: 1;
+    }
+
+ #text2 {
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+    }
+/*imgs1 (end)*/
+
+
+
+
+/*Bottom content (start)*/
+    #cartoon{
+    float: left;
+    margin: 50px 50px 50px 50px;
+    }
+
+    #fblink{
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 20px;
+    transition: all .2s;
+    }
+
+    #fblink:hover{
+     font-size: 25px;
+     color: #8b8b8b;
+     text-decoration: underline;
+    }
+/*Bottom content (end)*/
+
+
+/*footer (start)*/
+
+#footerhead{
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    background: #383838;
+    margin-top: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    width:100%;
+    padding: 0px 0px 5px 0px;
+    background: #2a2a2a;
+}
+
+#fb{
+    margin: 5px;
+    transition: all .2s;
+}
+
+#fb:hover{
+    transform: scale(1.2);
+}
+
+
+#yt{
+    margin: 5px;
+    transition: all .2s;
+}
+
+#yt:hover{
+    transform: scale(1.2);
+}
+
+
+#gm{
+    margin: 5px;
+    transition: all .2s;
+}
+
+#gm:hover{
+    transform: scale(1.2);
+}
+
+
+/*footer (end)*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
